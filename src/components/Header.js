@@ -1,7 +1,12 @@
-export default function Header() {
-    return (
-      <div>
-        <h1>I am a Header!</h1>
-      </div>
+import './styles/Style.css';
+
+function Header() {
+  return (
+      <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
+    <h1>Welcome, I'm Savannah!</h1>
+    <h2> I am a full-stack web developer.</h2>
+  </section>
     );
   }
+
+  export default Header;
