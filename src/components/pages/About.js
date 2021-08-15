@@ -2,7 +2,7 @@ import '../styles/Style.css';
 
 function About() {
   return (
-    <section id="about" class="about">
+    <section class="about">
       <div class="container">
         <div class="row no-gutters">
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
