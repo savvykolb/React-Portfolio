@@ -18,7 +18,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display", serif;
   }
 
-/* HEADER & HERO SECTION  */
+/* HERO SECTION  */
+
 
 #hero {
     width: 100%;
@@ -76,6 +77,46 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 
+  /* NAVBAR */
+  /* .navbar {
+    padding: 0;
+  } */
+  #header {
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    height: 60px;
+    background: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: right;
+  }
+  
+  .navbar li {
+    position: absolute right;
+  }
+  
+  .navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-size: 18px;
+    color: #2c4964;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+  
+  .navbar a:hover, .navbar .active, .navbar li:hover > a {
+    color: #d43076;
+  }
+  
   /* FOOTER  */
   #footer {
     background: #fff;
