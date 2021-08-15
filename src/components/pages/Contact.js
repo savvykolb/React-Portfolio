@@ -1,20 +1,29 @@
-export default function Contact() {
+import '../styles/Style.css';
+import { BsFillEnvelopeOpenFill } from "react-icons/bs"
+import { BsPhone } from "react-icons/bs"
+import { FaLinkedin } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa';
+
+
+function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <section id="contact" class="contact section-bg">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Interested in working together? Let's connect and create something cool! </p>
+        <br></br>
+        <div class="social-links">
+          <a href="tel:336-707-0007" class="phoneNumber"><BsPhone /></a>
+          <a href="mailto:savannahnkolb@gmail.com" class="email"><BsFillEnvelopeOpenFill /></a>
+          <a href="https://www.linkedin.com/in/savannah-kolb-11a128208/"class="linkedin"><FaLinkedin /></a>
+          <a href="https://github.com/snk923" class="gitHub"><FaGithub /></a>
+        </div>
+      </div>
     </div>
+    </section>
   );
 }
+
+export default Contact;
