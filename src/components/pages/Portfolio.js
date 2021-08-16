@@ -6,6 +6,10 @@ import Notes from '../../img/portfolio/Notes.jpg'
 import scheduler from '../../img/portfolio/planner.jpg'
 import trivia from '../../img/portfolio/quiz.jpg'
 
+import { FaGithub, FaLink } from 'react-icons/fa';
+
+
+
 function Portfolio() {
   return (
     <section id="portfolio" class="portfolio section-bg">
@@ -19,52 +23,49 @@ function Portfolio() {
         <div class="row portfolio-container">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <a target='_blank' rel="noreferrer" href="https://jetaway1.herokuapp.com/">
-              <div class="portfolio-wrap">
-                <img src={jetAway} class="img-fluid" alt="Photographer: Boxed Water"></img>
-                <div class="portfolio-info">
-                  <h4>JetAway</h4>
-                  <p>HTML/CSS/JavaScript / Node.js / mySQL</p>
-                </div>
+            <div class="portfolio-wrap">
+              <img src={jetAway} class="img-fluid" alt="Photographer: Boxed Water"></img>
+              <div class="portfolio-info">
+                <h4>JetAway</h4>
+                <p>HTML/CSS/JavaScript / Node.js / mySQL</p>
+                <a target='_blank' rel="noreferrer" href="https://jetaway1.herokuapp.com/"><FaLink /></a><a target='_blank' rel="noreferrer" href="https://github.com/snk923/JetAway"><FaGithub /></a>
               </div>
-            </a>
+            </div>
+
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <a target='_blank' rel="noreferrer" href="https://santipalacios2002.github.io/foodApedia/">
-              <div class="portfolio-wrap">
-                <img src={foodApedia} class="img-fluid" alt="Photographer: Cooker King"></img>
-                <div class="portfolio-info">
-                  <h4>FoodApedia</h4>
-                  <p>JavaScript / REST APIs</p>
-                </div>
+            <div class="portfolio-wrap">
+              <img src={foodApedia} class="img-fluid" alt="Photographer: Cooker King"></img>
+              <div class="portfolio-info">
+                <h4>FoodApedia</h4>
+                <p>JavaScript / REST APIs</p>
+                <a target='_blank' rel="noreferrer" href="https://santipalacios2002.github.io/foodApedia/"><FaLink /></a><a target='_blank' rel="noreferrer" href="https://github.com/santipalacios2002/foodApedia"><FaGithub /></a>
               </div>
-            </a>
+            </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <a target='_blank' rel="noreferrer" href="https://snk923.github.io/homework6-weather-dashboard/">
-              <div class="portfolio-wrap">
-                <img src={weather} class="img-fluid" alt="Weather Dashboard Photographer: Henruk Donnestad"></img>
-                <div class="portfolio-info">
-                  <h4>Weather Dashboard</h4>
-                  <p>JavaScript / APIs</p>
-                </div>
+            <div class="portfolio-wrap">
+              <img src={weather} class="img-fluid" alt="Weather Dashboard Photographer: Henruk Donnestad"></img>
+              <div class="portfolio-info">
+                <h4>Weather Dashboard</h4>
+                <p>JavaScript / APIs</p>
+                <a target='_blank' rel="noreferrer" href="https://snk923.github.io/homework6-weather-dashboard/"><FaLink /></a><a target='_blank' rel="noreferrer" href="https://github.com/snk923/homework6-weather-dashboard"><FaGithub /></a>
               </div>
-            </a>
+            </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <a target='_blank' rel="noreferrer" href="https://skolb-note-taker.herokuapp.com/notes">
-              <div class="portfolio-wrap">
-                <img src={Notes} class="img-fluid"
-                  alt="NoteTaker Photographer: Charles Deluvio"></img>
-                <div class="portfolio-info">
-                  <h4>NoteTaker</h4>
-                  <p>JavaScript / Express.js / Node.js</p>
-                </div>
+            <div class="portfolio-wrap">
+              <img src={Notes} class="img-fluid"
+                alt="NoteTaker Photographer: Charles Deluvio"></img>
+              <div class="portfolio-info">
+                <h4>NoteTaker</h4>
+                <p>JavaScript / Express.js / Node.js</p>
+                <a target='_blank' rel="noreferrer" href="https://skolb-note-taker.herokuapp.com/notes"><FaLink /></a><a target='_blank' rel="noreferrer" href="https://github.com/snk923/homework11-Express.js-NoteTaker"><FaGithub /></a>
               </div>
-            </a>
+            </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -75,21 +76,21 @@ function Portfolio() {
                 <div class="portfolio-info">
                   <h4>Work Day Scheduler</h4>
                   <p>JavaScript</p>
+                  <a target='_blank' rel="noreferrer" href="https://snk923.github.io/homework5-workdayScheduler/"><FaLink /></a><a target='_blank' rel="noreferrer" href="https://github.com/snk923/homework5-workdayScheduler"><FaGithub /></a>
                 </div>
               </div>
             </a>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <a target='_blank' rel="noreferrer" href="https://snk923.github.io/homework4_code_quiz/">
-              <div class="portfolio-wrap">
-                <img src={trivia} class="img-fluid" alt="Trivia Game Photographer Emma Matthews Digital Content"></img>
-                <div class="portfolio-info">
-                  <h4>Trivia Challenge</h4>
-                  <p>JavaScript</p>
-                </div>
+            <div class="portfolio-wrap">
+              <img src={trivia} class="img-fluid" alt="Trivia Game Photographer Emma Matthews Digital Content"></img>
+              <div class="portfolio-info">
+                <h4>Trivia Challenge</h4>
+                <p>JavaScript</p>
+                <a target='_blank' rel="noreferrer" href="https://snk923.github.io/homework4_code_quiz/"><FaLink /></a><a target='_blank' rel="noreferrer" href="https://github.com/snk923/homework4_code_quiz"><FaGithub /></a>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>

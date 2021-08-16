@@ -78,9 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   /* NAVBAR */
-  /* .navbar {
-    padding: 0;
-  } */
+
   #header {
     transition: all 0.5s;
     z-index: 997;
@@ -89,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #fff;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
   }
-  
+
   .navbar {
     padding: 0;
   }
@@ -111,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0 10px 30px;
-    font-size: 14px;
+    font-size: 14.5px;
     color: #2c4964;
     white-space: nowrap;
     transition: 0.3s;
@@ -129,6 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 
   
   /* FOOTER  */
+
   #footer {
     background: #fff;
     padding: 24px 0;
@@ -140,9 +139,35 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
 
-  /*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+  .social-links {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  .social-links a {
+    font-size: 25px;
+    display: inline-block;
+    background: #fff;
+    color: #d43076;
+    line-height: 0;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    transition: 0.3s;
+    border: 1px solid #d43076;
+  }
+  
+  .social-links a:hover {
+    background: #d43076;
+    color: #fff;
+  }
+
+/* COMPONENTS  */
+
+
 section {
   padding: 60px 0;
 }
@@ -180,9 +205,8 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+/* ABOUT  */
+
 #about {
   padding-left: 10px;
   padding-right: 10px;
@@ -223,9 +247,8 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Skills
---------------------------------------------------------------*/
+/* SKILLS */
+
 .list-inline {
   padding-left: 0;
   list-style: none;
@@ -238,9 +261,9 @@ section {
 .dev-icons {
   font-size: 2rem;
 }
-/*--------------------------------------------------------------
-# Resume
---------------------------------------------------------------*/
+
+/* RESUME */
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 500;
@@ -300,9 +323,9 @@ section {
 }
 
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
+/* PORTFOLIO */
+
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -364,75 +387,20 @@ section {
   top: calc(50% - 48px);
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
-.portfolio-details {
-  padding-top: 40px;
+.portfolio a {
+color:white;
+font-size: 24px;
+padding: 10px 20px;
 }
 
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #d43076;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #d43076;
-}
-
-.portfolio-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(44, 73, 100, 0.08);
-}
-
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
-
-.portfolio-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
-}
-
-.portfolio-details .portfolio-description {
-  padding-top: 30px;
-}
-
-.portfolio-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-description p {
-  padding: 0;
+.portfolio a:hover {
+  color: #d43076;
 }
 
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
+/* CONTACT  */
+
+
 .contact .contact-about h3 {
   font-size: 36px;
   margin: 0 0 10px 0;
@@ -451,30 +419,7 @@ section {
   color: #3c6387;
 }
 
-.contact .social-links {
-  padding-bottom: 20px;
-}
 
-.contact .social-links a {
-  font-size: 30px;
-  display: inline-block;
-  background: #fff;
-  color: #d43076;
-  line-height: 0;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 50px;
-  height: 50px;
-  transition: 0.3s;
-  border: 1px solid #d43076;
-}
-
-.contact .social-links a:hover {
-  background: #d43076;
-  color: #fff;
-}
 
 
 
