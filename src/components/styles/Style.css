@@ -322,6 +322,13 @@ section {
   border: 2px solid #d43076;
 }
 
+.resume a {
+  color:#5a656e;;
+  }
+  
+  .resume a:hover {
+    color: #d43076;
+  }
 
 /* PORTFOLIO */
 
@@ -400,24 +407,29 @@ padding: 10px 20px;
 
 /* CONTACT  */
 
-
-.contact .contact-about h3 {
-  font-size: 36px;
-  margin: 0 0 10px 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 300;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: #d43076;
+.contact .php-email-form input, .contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 16px;
 }
 
-.contact .contact-about p {
-  font-size: 14px;
-  line-height: 24px;
-  font-family: "Playfair Display", serif;
-  color: #3c6387;
+.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+  border-color: #d43076;
 }
+
+.contact .php-email-form button[type="submit"] {
+  background: #d43076;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: #dd5a92;
+}
+
 
 
 

@@ -69,17 +69,15 @@ function Portfolio() {
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <a target='_blank' rel="noreferrer" href="https://snk923.github.io/homework5-workdayScheduler/">
-              <div class="portfolio-wrap">
-                <img src={scheduler} class="img-fluid"
-                  alt="Workday Scheduler Photographer: Emma Matthews Digital Content"></img>
-                <div class="portfolio-info">
-                  <h4>Work Day Scheduler</h4>
-                  <p>JavaScript</p>
-                  <a target='_blank' rel="noreferrer" href="https://snk923.github.io/homework5-workdayScheduler/"><FaLink /></a><a target='_blank' rel="noreferrer" href="https://github.com/snk923/homework5-workdayScheduler"><FaGithub /></a>
-                </div>
+            <div class="portfolio-wrap">
+              <img src={scheduler} class="img-fluid"
+                alt="Workday Scheduler Photographer: Emma Matthews Digital Content"></img>
+              <div class="portfolio-info">
+                <h4>Work Day Scheduler</h4>
+                <p>JavaScript</p>
+                <a target='_blank' rel="noreferrer" href="https://snk923.github.io/homework5-workdayScheduler/"><FaLink /></a><a target='_blank' rel="noreferrer" href="https://github.com/snk923/homework5-workdayScheduler"><FaGithub /></a>
               </div>
-            </a>
+            </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
