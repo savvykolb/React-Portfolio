@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Savannah Kolb REACT Portfolio
+### updated 08/2021
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![MIT](https://img.shields.io/badge/license-MIT-brightgreen)
 
-## Available Scripts
+## My Portfolio Presentation
 
-In the project directory, you can run:
+This application is my personal REACT job portfolio. This will be used for any job searches or freelance work. It will give any potential clients or future employers a glimpse into who I am and what my work is like. You will find there is an about me section, a list of all my skills, recent projects, my resume, and contact information. 
 
-### `npm start`
+Here is the link to my launched site: [Savannah Kolb React Portfolio](https://snk923.github.io/React-Portfolio/#contact)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Here is a video demonstration of my completed portfolio: 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+### Homepage
+#
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When the user first enters my site, they will see a well polished and inviting header.
 
-### `npm run build`
+![Portfolio Landing Header ](src/img/readMe/homepage.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### About Me and Skills Section
+#
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Users will then be able to view my about me and skills section. You will see I have a responsive layout with the image and sections to allow users to view on any device. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![About Me and Skills ](src/img/readMe/about.jpg)
 
-### `npm run eject`
+### Portfolio
+#
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Users can navigate to my portfolio section by clicking the navigation bar or by continuing to scroll down on their screen. They will see a grid (depending on screen size) of all my current and upcoming projects. When they hover on an image, they will see two options to click. The 'link'takes them to the live site and the 'github icon' takes them to m. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Main Portfolio Page](src/img/readMe/portfolio.jpg)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Resume 
+#
 
-## Learn More
+Users can reference my resume right on my portfolio page or they have the option to download a pdf version by pressing the download button in the resume title.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Resume](src/img/readMe/resume.jpg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Contact 
+#
 
-### Code Splitting
+Users can navigate to my contact section by clicking the navigation bar. Users will see a form they may fill out to contact me. In my footer across all pages they will see other ways to contace me as well. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Contact](src/img/readMe/contact.jpg)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Copyright
+License: https://bootstrapmade.com/license/
