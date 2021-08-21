@@ -9,9 +9,6 @@ This application is my personal REACT job portfolio. This will be used for any j
 
 Here is the link to my launched site: [Savannah Kolb React Portfolio](https://snk923.github.io/React-Portfolio/#contact)
 
-Here is a video demonstration of my completed portfolio: 
-
-
 ### Homepage
 #
 
