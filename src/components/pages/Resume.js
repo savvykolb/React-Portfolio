@@ -1,5 +1,5 @@
 import '../styles/Style.css';
-import resume from '../../img/docs/2021 Kolb, Savannah_resume_.pdf';
+import resume from '../../img/docs/SKolb_Resume2021.pdf';
 
 function Resume() {
   return (
@@ -10,9 +10,6 @@ function Resume() {
 
           <h2>Resume     <a target='_blank' rel="noreferrer" href={resume} download="sKolb_Resume.pdf"><i class="fa fa-download"></i>
           </a></h2>
-          <p><em>“Start by doing what’s necessary, then what’s possible, and suddenly you are doing the impossible.” –
-            Francis of Assisi
-          </em></p>
         </div>
         <div class="col-lg-6">
           <h3 class="resume-title">Education</h3>
@@ -41,16 +38,13 @@ function Resume() {
             <h5>2018 - Present</h5>
             <p><em>Guilford County Schools, Greensboro, NC </em></p>
             <p>
+            Create detailed lesson plans for in class and digital virtual learning. Coach, prepare, and assess over 120 students for proficiency on state standards. Maintain a projected learning growth in all grade 7 ELA classes for two consecutive years. Organize and host grade 7 Grade Level Meetings during in school instruction and digital virtual learning. Create an afterschool mathematics tutoring session for grade 7 students. Use multiple online/digital platforms, including Canvas, Google Docs, Google Classroom, Microsoft Suites, Blackboard, PlayPosit, ClassDojo, and Remind. Provide guidance and advice to students on educational and social matters and on their further education and future careers.
+              </p><p>
               <ul>
-                <li>Developed detailed lesson plans for in class and digital virtual learning. Developed, re-evaluated,
-                  and communicated classroom policies and procedures as necessary. </li>
-                <li>Established a learning environment to meet and enhance the children’s needs of emotional intellectual,
-                  social, and creative strengths throughout in class instruction and digital virtual learning. </li>
-                <li>Instructed, prepared, and assessed over 120 students for proficiency on state standards.</li>
-                <li>Established a positive rapport with all students and parents through home calls, emails, and written
-                  letters.</li>
-                <li>Maintained a projected learning growth in all grade 7 ELA classes and Math classes for all 3 years.
-                </li>
+                <li>Established a positive rapport with all students and parents through close interaction with parents and delivering exceptional coaching to students. </li>
+                <li>Taught according to the educational needs, abilities, and achievement of the individual students and groups of students. </li>
+                <li>Attained the award Rising Star through the GCS-ACT program.</li>
+                <li>Consistently averaged 20% higher than school for state testing and 10% higher than district for the year 2020-2021.</li>
               </ul>
             </p>
           </div>
@@ -59,15 +53,10 @@ function Resume() {
             <h5>2019 - Present</h5>
             <p><em>GCS Alternative Certification Track, Greensboro, NC</em></p>
             <p>
-              <ul>
-                <li>Provided structured
-                  supports to teachers from varying subject areas and grade levels as teachers learned new concepts of
-                  unit design, using digital
-                  resources to further enhance virtual learning.</li>
-                <li>Utilized virtual platforms to forge strong relationships, provide instructional
-                  feedback, and established a virtual learning community during Building Blocks.</li>
-                <li>Building relationships with new teachers that go beyond the program; continuing to be a mentor outside
-                  me co-facilitating in the classroom.</li>
+            Performed as a co-facilitator with GCS-ACT for both foundation classes and summer building blocks. Supported teachers from varying subject areas and grade levels as teachers learned new concepts of unit design, using digital resources to further enhance virtual learning.
+              </p><p>              <ul>
+                <li>Forged strong relationships, provided instructional feedback, and established a virtual learning community during building blocks by using virtual platforms.</li>
+                <li>Becoming a master in lesson design that filters over into my classroom and PLCs.</li>
               </ul>
             </p>
           </div>
@@ -76,19 +65,12 @@ function Resume() {
             <h5>2016 - 2018</h5>
             <p><em>Target, Manhattan Beach, CA</em></p>
             <p>
-              <ul>
-                <li>Manage and oversee all human resources functions for 300-400 employees. Perform talent management,
-                  recruitment, and human resources for multiple store locations. Allocate payroll throughout the business
-                  and evaluate staffing requirements.
-                </li>
-                <li>Develop company policy and procedures
-                  applicable to all levels of the company. Oversee the implementation of all new policy and procedure.
-                </li>
-                <li>Guide key decisions and manage processes
-                  related to staffing, training, employee relations, performance management, succession planning,
-                  compensation and benefits.</li>
-                <li>Organize and maintain server documents according to state and federal guidelines. Proficient in
-                  multiple HRIS systems; Kronos, Oracle, Paycom, Target CW.</li>
+            Led all human resources functions for 300 employees. Performed talent management, recruitment, and human resources for multiple store locations.  Allocated payroll throughout the company and evaluated staffing requirements. Developed company policy and procedures applicable to all levels of the company. Organized and managed all local community volunteer events. Designed and allocated donation budgets district wide and build partnerships with local community directors to ensure successful events. Researched and drafted all leave of absence letters and recommended procedures to assure compliance with all applicable federal, state, and local laws. Established and maintained server documents according to state and federal guidelines. Proficient in multiple HRIS systems; Kronos, Paycom, Oracle, Target CW. Oversaw the implementation of all new policy and procedure. Guide key decisions and manage processes related to staffing, training, employee relations, performance management, succession planning, compensation and benefits. Process and handle all employee concerns or inquiries. Enhanced operational performance by coaching employees and handling any code of conduct or policy violations. Facilitated team building and training exercises.              
+             </p><p>                 <ul>
+                <li>Led store to recognition as a “Golden Contribution Store” after making yearly payroll and sales goals.</li>
+                <li>Achieved and maintained the best team member turnover rate in the district.</li>
+                <li>Attained a team survey score of 86%; the best in the district.</li>
+                <li>Recruited and supported the hiring of over 150 people per season.</li>
               </ul>
             </p>
           </div>
@@ -97,14 +79,12 @@ function Resume() {
             <h5>2013 - 2016</h5>
             <p><em>TEN: The Enthusiast Network, El Segundo, CA</em></p>
             <p>
-              <ul>
-                <li>Created production budgets for large events and production shoots. Planned and coordinated shows and events within budget parameters.
-                </li>
-                <li>Forecasted expenses and developed expense reports. Managed all aspects of events and shows including the coordination of food, equipment, permits, and
-                  signage.
-                </li>
-                <li>Created daily call sheets and managed all staff scheduling. Managed vendor relations, closed supplier accounts, and handled all stock and inventory manager.</li>
-                <li>Doubled YouTube views with analysis, innovative strategies, and developing unique content marketed to a broader viewer range. Helped build and manage team to assist with continual growth.</li>
+            Designed and controlled production budgets for large events and production shoots. Devised and applied best management practices and executed shows and events within budget parameters. Steered end-to-end shows and event management operations, including the coordination of food, permits, equipment, and signage. Ensured operational excellence, reduced costs, and assured timely availability of material by managing vendor relations, closing supplier accounts, and controlling all stock and inventory manager. 
+            </p><p>                             <ul>
+                <li>Organized and directed an event of over 3K people and maintained within the budget.</li>
+                <li>Increased employee knowledge and performance by developing new training procedures for office assistants and creating a training guide.</li>
+                <li>Implemented best analysis and innovative strategies that doubled YouTube views.</li>
+                <li>Hired, trained, and guided staff members.</li>
               </ul>
             </p>
           </div>
