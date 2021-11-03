@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.00e75205.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.3bd6bd62.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.3bd6bd62.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.c795743d.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.c795743d.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.4b8dfcd6.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.4b8dfcd6.js.map",
     "static/css/2.286855ea.chunk.css": "/React-Portfolio/static/css/2.286855ea.chunk.css",
@@ -15,10 +15,10 @@
     "static/media/JetAway.528e97c8.jpg": "/React-Portfolio/static/media/JetAway.528e97c8.jpg",
     "static/media/Notes.33e0040c.jpg": "/React-Portfolio/static/media/Notes.33e0040c.jpg",
     "static/media/SKolb_Resume2021.cbe231cf.pdf": "/React-Portfolio/static/media/SKolb_Resume2021.cbe231cf.pdf",
+    "static/media/ZEAL.4302b65b.jpg": "/React-Portfolio/static/media/ZEAL.4302b65b.jpg",
     "static/media/foodImg.0b28e1ef.jpg": "/React-Portfolio/static/media/foodImg.0b28e1ef.jpg",
     "static/media/Style.css": "/React-Portfolio/static/media/me.20536f47.jpg",
     "static/media/planner.07539f67.jpg": "/React-Portfolio/static/media/planner.07539f67.jpg",
-    "static/media/quiz.774184c2.jpg": "/React-Portfolio/static/media/quiz.774184c2.jpg",
     "static/media/weather.1ae72a5f.jpg": "/React-Portfolio/static/media/weather.1ae72a5f.jpg"
   },
   "entrypoints": [
@@ -26,6 +26,6 @@
     "static/css/2.286855ea.chunk.css",
     "static/js/2.d7b5e5d3.chunk.js",
     "static/css/main.00e75205.chunk.css",
-    "static/js/main.3bd6bd62.chunk.js"
+    "static/js/main.c795743d.chunk.js"
   ]
 }
