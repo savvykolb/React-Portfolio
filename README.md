@@ -1,5 +1,5 @@
 # Savannah Kolb REACT Portfolio
-### updated 08/2021
+### updated 10/2021
 
 ![MIT](https://img.shields.io/badge/license-MIT-brightgreen)
 
@@ -7,7 +7,7 @@
 
 This application is my personal REACT job portfolio. This will be used for any job searches or freelance work. It will give any potential clients or future employers a glimpse into who I am and what my work is like. You will find there is an about me section, a list of all my skills, recent projects, my resume, and contact information. 
 
-Here is the link to my launched site: [Savannah Kolb React Portfolio](https://snk923.github.io/React-Portfolio/#contact)
+Here is the link to my launched site: [Savannah Kolb React Portfolio](https://snk923.github.io/React-Portfolio/)
 
 ### Homepage
 #
