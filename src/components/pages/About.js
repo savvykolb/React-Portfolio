@@ -11,7 +11,7 @@ function About() {
               <div class="section-title">
                 <h2>A Little Bit About Me...</h2>
                 <p>
-                  I am a dedicated professional currently undertaking Full Stack Web Development Certificate from University of North Carolina along with substantial experience in teaching, operational excellence, production management, and HR administration. I offer a vision-driven approach to decision making, strategic planning, and tactical implementation that I am excited to bring to your team.
+                Dedicated professional and recent graduate with a Full Stack Web Development Certificate from University of North Carolina along with substantial experience in teaching, operational excellence, production management, and HR administration. I offer a vision-driven approach to decision making, strategic planning, and tactical implementation that I am excited to bring to your team.
                   <br></br><br></br>
                   Throughout my career, I have made it my priority to utilize current technologies and new techniques to drive elegant, creative solutions across a range of projects. Comfortable in both collaborative and independent roles, I offer refined analytical and critical thinking skills, and I can adapt and revise my strategies to meet evolving priorities, shifting needs, and emergent issues. I have proficiency in HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, progressive web apps, agile methodology, computer science, database theory, MongoDB, MySQL, and Git.
                   <br></br><br></br>
