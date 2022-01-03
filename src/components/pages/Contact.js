@@ -1,40 +1,42 @@
 import '../styles/Style.css';
+import { BsFillEnvelopeOpenFill, BsPhone} from "react-icons/bs"
+import {FaLinkedin, FaGithub} from 'react-icons/fa'
 
-import { useForm } from 'react-hook-form';
-import { ToastContainer, toast } from 'react-toastify';
+// import { useForm } from 'react-hook-form';
+// import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 
 const Contact = () => {
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors }
-  } = useForm();
+  // const {
+  //   register,
+  //   handleSubmit,
+  //   reset,
+  //   formState: { errors }
+  // } = useForm();
 
-  const toastifySuccess = () => {
-    toast('Form sent!', {
-      position: 'bottom-right',
-      autoClose: 5000,
-      hideProgressBar: true,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: false,
-      className: 'submit-feedback success',
-      toastId: 'notifyToast'
-    });
-  };
+  // const toastifySuccess = () => {
+  //   toast('Form sent!', {
+  //     position: 'bottom-right',
+  //     autoClose: 5000,
+  //     hideProgressBar: true,
+  //     closeOnClick: true,
+  //     pauseOnHover: true,
+  //     draggable: false,
+  //     className: 'submit-feedback success',
+  //     toastId: 'notifyToast'
+  //   });
+  // };
 
-  const onSubmit = async (data) => {
-    const { name, email, subject, message } = data;
+  // const onSubmit = async (data) => {
+  //   const { name, email, subject, message } = data;
 
-    console.log('Name: ', name);
-    console.log('Email: ', email);
-    console.log('Subject: ', subject);
-    console.log('Message: ', message);
-    reset();
-    toastifySuccess();
-  };
+  //   console.log('Name: ', name);
+  //   console.log('Email: ', email);
+  //   console.log('Subject: ', subject);
+  //   console.log('Message: ', message);
+  //   reset();
+  //   toastifySuccess();
+  // };
 
   return (
     <section id="contact" class="contact section-bg">
@@ -44,7 +46,13 @@ const Contact = () => {
           <h2>Contact</h2>
           <p>Interested in working together? Let's connect and create something cool! </p>
           <br></br>
-          <div class="col-lg-5 col-md-8">
+          <div class="social-links">
+          <a target='_blank' rel="noreferrer" href="tel:336-707-0007" class="phoneNumber"><BsPhone /></a>
+          <a target='_blank' rel="noreferrer" href="mailto:savannahnkolb@gmail.com" class="email"><BsFillEnvelopeOpenFill /></a>
+          <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/savvykolb/"class="linkedin"><FaLinkedin /></a>
+          <a target='_blank' rel="noreferrer" href="https://github.com/snk923" class="gitHub"><FaGithub /></a>
+        </div>
+          {/* <div class="col-lg-5 col-md-8">
             <form class="php-email-form" id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
               <div className='row formRow'>
                 <div className='col'>
@@ -120,7 +128,7 @@ const Contact = () => {
               </button></div>
             <ToastContainer />
             </form>
-          </div>
+          </div> */}
         </div>
       </div >
     </section >

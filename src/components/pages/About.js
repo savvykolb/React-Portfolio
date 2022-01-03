@@ -5,7 +5,7 @@ function About() {
     <section class="about">
       <div class="container">
         <div class="row ">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
+          <div id="me-img" class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
           <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
               <div class="section-title">
