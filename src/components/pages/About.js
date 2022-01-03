@@ -11,13 +11,13 @@ function About() {
               <div class="section-title">
                 <h2>A Little Bit About Me...</h2>
                 <p>
-                Dedicated professional and recent graduate with a Full Stack Web Development Certificate from University of North Carolina along with substantial experience in teaching, operational excellence, production management, and HR administration. I offer a vision-driven approach to decision making, strategic planning, and tactical implementation that I am excited to bring to your team.
+                I am a dedicated web developer with a Full Stack Web Development Certificate from University of North Carolina along with substantial experience in teaching, operational excellence, production management, and HR administration. I offer a vision-driven approach to decision making, strategic planning, and tactical implementation that I am excited to bring to your team.
                   <br></br><br></br>
                   Throughout my career, I have made it my priority to utilize current technologies and new techniques to drive elegant, creative solutions across a range of projects. Comfortable in both collaborative and independent roles, I offer refined analytical and critical thinking skills, and I can adapt and revise my strategies to meet evolving priorities, shifting needs, and emergent issues. I have proficiency in HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, progressive web apps, agile methodology, computer science, database theory, MongoDB, MySQL, and Git.
                   <br></br><br></br>
                   When I am not coding, you will find me with an iced coffee in hand, enjoying time with my husband,
                   daughter, and two dogs! If we are not outside soaking up the sun, we are playing games or finding
-                  projects around the house to complete.
+                  fun projects around the house to complete.
                 </p>
               </div>
               <div class="section-title" id="skills">
@@ -28,14 +28,10 @@ function About() {
                     <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                     <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                     <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                    {/* <!-- <li class="list-inline-item"><i class="fab fa-angular"></i></li> --> */}
+                    <li class="list-inline-item"><i class="fab fa-angular"></i></li>
                     <li class="list-inline-item"><i class="fab fa-react"></i></li>
                     <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                    {/* <!-- <li class="list-inline-item"><i class="fab fa-sass"></i></li> --> */}
-                    {/* <!-- <li class="list-inline-item"><i class="fab fa-less"></i></li> --> */}
-                    {/* <!-- <li class="list-inline-item"><i class="fab fa-wordpress"></i></li> --> */}
-                    {/* <!-- <li class="list-inline-item"><i class="fab fa-gulp"></i></li> --> */}
-                    {/* <!-- <li class="list-inline-item"><i class="fab fa-grunt"></i></li> --> */}
+                    <li class="list-inline-item"><i class="fab fa-sass"></i></li>
                     <li class="list-inline-item"><i class="fas fa-database"></i></li>
                     <li class="list-inline-item"><i class="fab fa-npm"></i></li>
                     <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>

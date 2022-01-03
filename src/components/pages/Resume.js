@@ -1,5 +1,5 @@
 import '../styles/Style.css';
-import resume from '../../img/docs/SKolb_Resume2021.pdf';
+import resume from '../../img/docs/SKolb_Resume2022.pdf';
 
 function Resume() {
   return (
@@ -34,12 +34,22 @@ function Resume() {
         <div class="col-lg-6">
           <h3 class="resume-title">Professional Experience</h3>
           <div class="resume-item">
+            <h4>Front End Engineer</h4>
+            <h5>2021 - Present</h5>
+            <p><em>DSD Partners, Richmond, VA </em></p>
+            <p>
+            Using Angular, Angular Material, and AWS to create new and update current UI/UX for current clients. Works in an agile environment. Collaborate with the IT team and other developers on different permutations to find the best solution possible. Versatility, flexibility, and a willingness to work within constantly changing priorities with enthusiasm.              </p><p>
+              <ul>
+                <li>Helped aide a successful launch of a software product to a new client country wide.  </li>
+              </ul>
+            </p>
+          </div>
+          <div class="resume-item">
             <h4>Middle School Teacher</h4>
             <h5>2018 - Present</h5>
             <p><em>Guilford County Schools, Greensboro, NC </em></p>
             <p>
-            Create detailed lesson plans for in class and digital virtual learning. Coach, prepare, and assess over 120 students for proficiency on state standards. Maintain a projected learning growth in all grade 7 ELA classes for two consecutive years. Organize and host grade 7 Grade Level Meetings during in school instruction and digital virtual learning. Create an afterschool mathematics tutoring session for grade 7 students. Use multiple online/digital platforms, including Canvas, Google Docs, Google Classroom, Microsoft Suites, Blackboard, PlayPosit, ClassDojo, and Remind. Provide guidance and advice to students on educational and social matters and on their further education and future careers.
-              </p><p>
+            Created detailed lesson plans for in class and digital virtual learning. Coached, prepared, and assessed over 120 students for proficiency on state standards. Maintained a projected learning growth in all grade 7 ELA classes for two consecutive years. Organized and hosted grade 7 Grade Level Meetings during in school instruction and digital virtual learning. Created an afterschool mathematics tutoring session for grade 7 students. Used multiple online/digital platforms, including Canvas, Google Docs, Google Classroom, Microsoft Suites, Blackboard, PlayPosit, ClassDojo, and Remind. Provided guidance and advice to students on educational and social matters and on their further education and future careers.              </p><p>
               <ul>
                 <li>Established a positive rapport with all students and parents through close interaction with parents and delivering exceptional coaching to students. </li>
                 <li>Taught according to the educational needs, abilities, and achievement of the individual students and groups of students. </li>
@@ -50,7 +60,7 @@ function Resume() {
           </div>
           <div class="resume-item">
             <h4>Co-Facilitator Instructor</h4>
-            <h5>2019 - Present</h5>
+            <h5>2019 - 2021</h5>
             <p><em>GCS Alternative Certification Track, Greensboro, NC</em></p>
             <p>
             Performed as a co-facilitator with GCS-ACT for both foundation classes and summer building blocks. Supported teachers from varying subject areas and grade levels as teachers learned new concepts of unit design, using digital resources to further enhance virtual learning.
