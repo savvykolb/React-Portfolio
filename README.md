@@ -1,5 +1,5 @@
 # Savannah Kolb REACT Portfolio
-### updated 10/2021
+### updated 01/2022
 
 ![MIT](https://img.shields.io/badge/license-MIT-brightgreen)
 
