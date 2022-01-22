@@ -29,7 +29,7 @@ function Portfolio() {
               <div class="portfolio-info">
                 <h4>ZEAL</h4>
                 <p>React / Node.js / MongoDB / GraphQL</p>
-                <a target='_blank' rel="noreferrer" href="https://snk923.github.io/React-Portfolio/"><FaLink /></a><a target='_blank' rel="noreferrer" href="https://github.com/snk923/ZEAL"><FaGithub /></a>
+                <a target='_blank' rel="noreferrer" href="https://zeal3.herokuapp.com/"><FaLink /></a><a target='_blank' rel="noreferrer" href="https://github.com/snk923/ZEAL"><FaGithub /></a>
               </div>
             </div>
           </div>
