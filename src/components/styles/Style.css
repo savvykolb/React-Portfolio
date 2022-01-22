@@ -140,22 +140,22 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .social-links {
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     text-align: center;
   }
   
   .social-links a {
-    font-size: 25px;
+    font-size: 34px;
     display: inline-block;
     background: #fff;
     color: #d43076;
     line-height: 0;
-    padding: 8px 0;
+    padding: 16px 0;
     margin-right: 4px;
     border-radius: 50%;
     text-align: center;
-    width: 45px;
-    height: 45px;
+    width: 65px;
+    height: 65px;
     transition: 0.3s;
     border: 1px solid #d43076;
   }
