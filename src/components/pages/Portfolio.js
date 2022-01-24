@@ -18,7 +18,7 @@ function Portfolio() {
         <div class="section-title">
           <h2>Portfolio</h2>
           <p>Click on the images below to see a sample of some of my most recent projects. You will find an option to
-            explore and read more about each project and a link to navigate to the live website. </p>
+             to navigate to the project's live website and an option to explore the project's github page. </p>
         </div>
 
         <div class="row portfolio-container">
