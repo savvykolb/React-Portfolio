@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.79a31a1e.chunk.css",
-    "main.js": "/static/js/main.396b238a.chunk.js",
-    "main.js.map": "/static/js/main.396b238a.chunk.js.map",
+    "main.js": "/static/js/main.5482d9f1.chunk.js",
+    "main.js.map": "/static/js/main.5482d9f1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.53f30350.js",
     "runtime-main.js.map": "/static/js/runtime-main.53f30350.js.map",
     "static/css/2.286855ea.chunk.css": "/static/css/2.286855ea.chunk.css",
@@ -13,12 +13,14 @@
     "static/css/main.79a31a1e.chunk.css.map": "/static/css/main.79a31a1e.chunk.css.map",
     "static/js/2.4bfa59db.chunk.js.LICENSE.txt": "/static/js/2.4bfa59db.chunk.js.LICENSE.txt",
     "static/media/JetAway.528e97c8.jpg": "/static/media/JetAway.528e97c8.jpg",
+    "static/media/MSR.73cffa85.jpg": "/static/media/MSR.73cffa85.jpg",
     "static/media/Notes.33e0040c.jpg": "/static/media/Notes.33e0040c.jpg",
-    "static/media/SKolb_Resume2022.d77e5673.pdf": "/static/media/SKolb_Resume2022.d77e5673.pdf",
+    "static/media/SKolb_Resume2022.a24476ae.pdf": "/static/media/SKolb_Resume2022.a24476ae.pdf",
     "static/media/ZEAL.4302b65b.jpg": "/static/media/ZEAL.4302b65b.jpg",
     "static/media/foodImg.0b28e1ef.jpg": "/static/media/foodImg.0b28e1ef.jpg",
     "static/media/Style.css": "/static/media/me.20536f47.jpg",
     "static/media/planner.07539f67.jpg": "/static/media/planner.07539f67.jpg",
+    "static/media/quiz.774184c2.jpg": "/static/media/quiz.774184c2.jpg",
     "static/media/weather.1ae72a5f.jpg": "/static/media/weather.1ae72a5f.jpg"
   },
   "entrypoints": [
@@ -26,6 +28,6 @@
     "static/css/2.286855ea.chunk.css",
     "static/js/2.4bfa59db.chunk.js",
     "static/css/main.79a31a1e.chunk.css",
-    "static/js/main.396b238a.chunk.js"
+    "static/js/main.5482d9f1.chunk.js"
   ]
 }
