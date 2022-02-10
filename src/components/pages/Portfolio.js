@@ -5,7 +5,8 @@ import foodApedia from '../../img/portfolio/foodImg.jpg'
 import weather from '../../img/portfolio/weather.jpg'
 import Notes from '../../img/portfolio/Notes.jpg'
 import scheduler from '../../img/portfolio/planner.jpg'
-// import trivia from '../../img/portfolio/quiz.jpg'
+import trivia from '../../img/portfolio/quiz.jpg'
+import msr from '../../img/portfolio/MSR.jpg'
 
 import { FaGithub, FaLink } from 'react-icons/fa';
 
@@ -22,6 +23,17 @@ function Portfolio() {
         </div>
 
         <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src={msr} class="img-fluid" alt="Photographer: Sam Poullain"></img>
+              <div class="portfolio-info">
+                <h4>Mountain Springs Ranch</h4>
+                <p>React / Node.js / JavaScript / CSS</p>
+                <a target='_blank' rel="noreferrer" href="https://www.basenjidog.net"><FaLink /></a><a target='_blank' rel="noreferrer" href="https://github.com/snk923/mountain-springs-ranch"><FaGithub /></a>
+              </div>
+            </div>
+          </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
@@ -91,7 +103,7 @@ function Portfolio() {
             </div>
           </div>
 
-          {/* <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src={trivia} class="img-fluid" alt="Trivia Game Photographer Emma Matthews Digital Content"></img>
               <div class="portfolio-info">
@@ -100,7 +112,7 @@ function Portfolio() {
                 <a target='_blank' rel="noreferrer" href="https://snk923.github.io/homework4_code_quiz/"><FaLink /></a><a target='_blank' rel="noreferrer" href="https://github.com/snk923/homework4_code_quiz"><FaGithub /></a>
               </div>
             </div>
-          </div> */}
+          </div> 
         </div>
       </div>
     </section>
